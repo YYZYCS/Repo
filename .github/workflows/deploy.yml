@@ -1,37 +1,69 @@
-name: Generate APT Repo
+name: Deploy Sileo Repo
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
     paths:
-      - 'debs/**'  # 仅当 debs 文件夹内有文件变动时触发
+      - 'debs/**'
+      - 'Release.template'
+      - '.github/workflows/deploy.yml'
 
 jobs:
-  update-repo:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v4
+      - name: Checkout source
+        uses: actions/checkout@v4
 
-    - name: Install APT Utilities
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y dpkg-dev bzip2 xz-utils
+      - name: Install dpkg-dev
+        run: sudo apt-get update && sudo apt-get install -y dpkg-dev bzip2 gzip
 
-    - name: Scan Packages and Compress
-      run: |
-        # 扫描 debs 目录，生成 Sileo 所需的 Packages 索引
-        dpkg-scanpackages -m debs /dev/null > Packages
-        
-        # 压缩为多种格式以兼容不同的包管理器
-        bzip2 -fk Packages
-        xz -fk Packages
+      - name: Generate Packages and Release
+        run: |
+          # 创建临时目录存放生成文件
+          mkdir -p output
+          # 复制 debs 到输出目录
+          cp -r debs output/
 
-    - name: Commit and Push Changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add Packages Packages.bz2 Packages.xz
-        git commit -m "Automated update: Packages index" || exit 0
-        git push origin main
+          # 生成 Packages 文件（dpkg-scanpackages 扫描 debs 目录）
+          dpkg-scanpackages -m debs /dev/null > output/Packages
+          # 压缩
+          bzip2 -c output/Packages > output/Packages.bz2
+          gzip -c output/Packages > output/Packages.gz
+
+          # 计算 Packages、Packages.bz2、Packages.gz 的校验和
+          # 准备一个临时文件存储校验信息
+          echo "MD5Sum:" >> output/checksums.txt
+          for f in Packages Packages.bz2 Packages.gz; do
+            md5=$(md5sum output/$f | cut -d' ' -f1)
+            size=$(wc -c < output/$f)
+            echo " $md5 $size $f" >> output/checksums.txt
+          done
+
+          echo "SHA1:" >> output/checksums.txt
+          for f in Packages Packages.bz2 Packages.gz; do
+            sha1=$(sha1sum output/$f | cut -d' ' -f1)
+            size=$(wc -c < output/$f)
+            echo " $sha1 $size $f" >> output/checksums.txt
+          done
+
+          echo "SHA256:" >> output/checksums.txt
+          for f in Packages Packages.bz2 Packages.gz; do
+            sha256=$(sha256sum output/$f | cut -d' ' -f1)
+            size=$(wc -c < output/$f)
+            echo " $sha256 $size $f" >> output/checksums.txt
+          done
+
+          # 合成最终 Release：模板 + 校验和
+          cp Release.template output/Release
+          cat output/checksums.txt >> output/Release
+          # 删除临时文件
+          rm output/checksums.txt
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
+          publish_branch: gh-pages
+          force_orphan: true   # 保持分支干净，只有最新内容
