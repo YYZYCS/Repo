@@ -54,6 +54,22 @@ Author: AnthoPak <anthopakdev@gmail.com>
 Icon: https://s1.imagehub.cc/images/2025/01/24/137ad8ab011c468fac23f82c8eb7c050.png
 Name: QuickPrefsqq
 
+Package: com.izj.textsubstitute
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: izj
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/com.izj.textsubstitute_1.0_iphoneos-arm64e.deb
+Size: 27108
+MD5sum: e22bf7ab71f5804225bed42cc9448ec2
+SHA1: 1af8891c4dada668a56bb2d39b981f3708f7ab38
+SHA256: 0ee39f0419faffe114802f01d30dfd2b6ad3495aa585736f8c1ab82f6d260e5c
+Section: 文本替换
+Description: 双指长按文本替换
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
+Name: 文本替换
+
 Package: com.nathan.gridswitcher
 Version: 1.0.3
 Architecture: iphoneos-arm64e
