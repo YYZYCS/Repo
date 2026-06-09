@@ -1,4 +1,4 @@
-Package: com.iZJ.immortalizer
+Package: com.wkk.immortalizer
 Version: 2.0.1
 Architecture: iphoneos-arm64
 Maintainer: sergy & daodao
@@ -10,7 +10,7 @@ Size: 49664
 MD5sum: eb69381e868ed4b9cefdafed6121c587
 SHA1: 2b734af54fc210349666f528b49fb07ee7e1b807
 SHA256: 487ef0773a4c3c9e199be4189dad97d78bb1fd6b2d7b81ddb36a0725dfa85029
-Section: 真后台
+Section: Tweaks
 Description: 可将应用置于前台，达到真后台效果，应用图标长按菜单 —— 开启/禁用「真后台」CC模块控制，需先打开要控制的app，然后控制中心点击模块即可。
 Author: sergy
 Icon: https://s1.imagehub.cc/images/2025/01/07/da88b1cfbc41a40634e3396891d98dc6.png
