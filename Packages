@@ -99,11 +99,11 @@ Maintainer: iZJ
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
 Filename: ./debs/com.wkk.tweaktool_2.0.0-beta_iphoneos-arm64e.deb
-Size: 11176
-MD5sum: 16ef4967f3a356d2ca6ecb785c8701a6
-SHA1: a3d5ef9b0fd7cab18a3172935282d4d23840b9ab
-SHA256: bad284034d8f0961583d9dbf5d6d75e5b470ece16a55d1aa79afd072d1e4e903
-Section: 插件及配置一键备份恢复
+Size: 11172
+MD5sum: b59dc8b44ec75211635ab5b1091ee2f1
+SHA1: 442888d410849821b260b97a97c7b8b053195a1c
+SHA256: 5b5e1fe7626be9f1b7900d69b3a4857df85d0d8241306275f3b1aaf83f3e3fcf
+Section: 配置插件备份工具
 Description: 使用方法：Filza进入/var/mobile/Documents/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件。
 Author: 预言小猫
 Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
@@ -117,11 +117,11 @@ Installed-Size: 2160
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Filename: ./debs/netskao.killapps-rootless_1.2-2_iphoneos-arm64e.deb
-Size: 934596
-MD5sum: 0edf66b498c2d4edeb8858cd9ba9a619
-SHA1: 7d1fbc2e5a57631077f7c22ec98f4bdcc3b338d9
-SHA256: c686d21ddafbb1efc04ae4abc184aa0d1ea92b6232d1c1db851cd92e6420ea08
-Section: Netskao-Tweaks
+Size: 934572
+MD5sum: c0af7cf23658c3d97c3d834d75ef4232
+SHA1: e715fa20afc5935acfe19a15bb6291346a769749
+SHA256: 183c6f87530bbdd94bdb698a2e5128d524397b1a32c1940e2daa7fd252de01ee
+Section: 任务界面
 Description: 长按后台卡片清除所有后台、上滑黑名单等等，iZJ只用它的上滑黑名单功能。
 Author: Netskao
 Name: KillApps-Rootless
