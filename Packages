@@ -1,16 +1,16 @@
 Package: apt.cydiakk.backgrounderaction15-rootless
 Version: 0.1.0
 Architecture: iphoneos-arm64e
-Maintainer: Cydiakk中文源™ <admin@cydiakk.com>
+Maintainer: iZJ
 Installed-Size: 340
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, com.opa334.ccsupport
 Filename: ./debs/apt.cydiakk.backgrounderaction15-rootless_0.1.0_iphoneos-arm64e.deb
-Size: 11560
-MD5sum: 7fd8724c3f557e6a61854dc4a739a3a9
-SHA1: 8078982117a6e12979afa50698fa5551aa0b181b
-SHA256: 385f2cfe9b07745208029a2afd6870b6e8d38d25a1966a03258f8b5d71559b7b
-Section: 真后台相关
+Size: 11540
+MD5sum: 62e4973e632f153b19b25cd86ac6cfb6
+SHA1: f26f2e4947ab835c3d87460bee13fc2d394298b7
+SHA256: 9527cce39251339c1c0e2fedc7bbb5e2b19c855cadb7b92291d89697ba628596
+Section: 真后台
 Description: 点开一个APP，控制中心点击按钮即可
 Author: @akusio_RR
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
@@ -20,17 +20,17 @@ Sponsor: Cydiakk中文源™ <https://apt.cydiakk.com/>
 Package: apt.cydiakk.backgrounderaction15autostate-rootless
 Version: 1.0.3
 Architecture: iphoneos-arm64e
-Maintainer: Cydiakk中文源™ <admin@cydiakk.com>
+Maintainer: iZJ
 Installed-Size: 384
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: apt.cydiakk.backgrounderaction15-rootless, com.opa334.altlist
 Conflicts: byg.iosios.net.backgrounderaction15autostate, byg.iosios.net.backgrounderaction15
 Filename: ./debs/apt.cydiakk.backgrounderaction15autostate-rootless_1.0.3_iphoneos-arm64e.deb
-Size: 28204
-MD5sum: 1bd16d7835b1278d57b31512d46250ab
-SHA1: d507b1968b0d9c72b5f74c77391e28858614d1be
-SHA256: c5a50a676b734e1116dac8d104e5123aed60c7a4f80b0b89de6233a06b967aef
-Section: 真后台相关
+Size: 28172
+MD5sum: 234dc6f8a1b2c286f0beb592361fce4d
+SHA1: a7d4dec200154bc59c69b657906be7755c46bed6
+SHA256: f2353725b936428f0fb2d7c672bc751518bade18d37e54a8104538af84bfe90b
+Section: 真后台
 Description: 一款自动真后台插件，配合里的真后台插件，实现打开某个APP自动设置真后台效果，无需复杂的操作！非常好用！
 Author: 0xkuj
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
@@ -53,6 +53,24 @@ Description: 计算Filza里文件夹大小。
 Author: 0xkuj
 Icon: https://s1.imagehub.cc/images/2025/04/02/754b2bb601bad95dca5cb982e7d926af.jpeg
 Name: FilzaDirProbe
+
+Package: com.dao.ccless
+Version: 2.1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: 妖刀
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.roothide.cc, com.hk.rootless.cc
+Filename: ./debs/com.dao.ccless_2.1.0.1_iphoneos-arm64e.deb
+Size: 498004
+MD5sum: 7f7ca4c529866aef45f2515d548b4c49
+SHA1: aba20b9c7f32a63359a68f0b2df58911d08121ed
+SHA256: 4458cee2b9cf299f2d5632e9351032f6d1ec2ba91d7a806aed8700342003c482
+Section: 控制中心
+Description: 超级控制中心模块集合！
+Author: 妖刀
+Name: CCLess++(RootHide)
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
 
 Package: com.nathan.gridswitcher
 Version: 1.0.3
@@ -89,6 +107,26 @@ Description: Filza Crack
 Author: Netskao
 Name: Filza Crack-roothide
 Sileodepiction: https://jailrepo.initnil.com/api?Package=com.netskao.filzacrack
+
+Package: com.opa334.ccsupport
+Version: 1.3.13-2-15+debug
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Installed-Size: 716
+Depends: mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Provides: com.ioscreatix.silo
+Filename: ./debs/com.opa334.ccsupport_1.3.13-2-15+debug_iphoneos-arm64e.deb
+Size: 73448
+MD5sum: c20f0d2a193045f5ef30f725a50fa39b
+SHA1: 9133846300a208dd252e7d7e92432e7886ec24de
+SHA256: 9185f7d22d511a66a0b07392395887ba2cf2f129672fc7e5cdf34f1362c06e79
+Section: 控制中心
+Description: Support tweak for CC modules!
+Author: opa334
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Name: CCSupport
 
 Package: com.sini921.quickappskill
 Version: 0.0.1-9
@@ -144,19 +182,35 @@ Author: korboy <korboybeats@gmail.com>
 Icon: https://sini921.github.io/repo/sileodepiction/icon/filzaswipeselect.png
 Name: FilzaSwipeSelect
 
+Package: com.wkk.hookcc
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/com.wkk.hookcc_1.0_iphoneos-arm64e.deb
+Size: 5560
+MD5sum: 1d4bd60828b1c1675a4ec6141f0e476d
+SHA1: 130150ce7180ef578bf360810cdc26785ab3630b
+SHA256: 1ce12512dfe2746b79ddec3abfe38c10b91ff9487a0611d725a4969ba9f15e4b
+Section: 控制中心相关
+Description: 控制中心音量亮度增加百分比。
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
+Name: 控制中心音量亮度增加百分比
+
 Package: com.wkk.immortalizer
 Version: 2.0.1
 Architecture: iphoneos-arm64
-Maintainer: sergy & daodao
+Maintainer: iZJ
 Installed-Size: 660
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
 Conflicts: com.sergy.immortalizer
 Filename: ./debs/com.wkk.immortalizer_2.0.1_iphoneos-arm64.deb
-Size: 49312
-MD5sum: 2ebcf4864c45f23ef6a54056bd1e8391
-SHA1: 6132f88488471d16bf0d04b91f8537b913b9c447
-SHA256: 024d39e820d4776a284105fa5f6722ff4174ba74a6bf09972019d17f86e40caa
-Section: 真后台相关
+Size: 49364
+MD5sum: d408936706dd63e642822a6dc534fee4
+SHA1: e1aad8c2288f953292b537f4b7b514b859fc2b78
+SHA256: 3966c055db806b443ec9654ecac77df65af0c8208fe806d839ecf6fb0d908aae
+Section: 真后台
 Description: 可将应用置于前台，达到真后台效果，应用图标长按菜单 —— 开启/禁用「真后台」CC模块控制，需先打开要控制的app，然后控制中心点击模块即可。
 Author: sergy
 Icon: https://s1.imagehub.cc/images/2025/01/07/da88b1cfbc41a40634e3396891d98dc6.png
