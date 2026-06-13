@@ -215,6 +215,40 @@ Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This v
 Author: TIGI Software
 Name: Filza File Manager 64-bit
 
+Package: com.wkk.SBLockhook1
+Version: 1.0-1
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.wkk.SBLockhook1_1.0-1_iphoneos-arm64e.deb
+Size: 3408
+MD5sum: 9897973df6df83195c3f1bc824e9da63
+SHA1: 4d69dc7f4de01c29660b012d8236a67ca88d77f8
+SHA256: d523480129e6b1c443f5b922ffcaf5ce2bc8e0331a537212fa457c11782dc09d
+Section: Tweaks
+Description: 长按锁屏键手机电筒(无论亮不亮屏都能触发)
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: 长按锁屏呼出手电筒
+
+Package: com.wkk.SBLockhook3
+Version: 1.0-3
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.wkk.SBLockhook3_1.0-3_iphoneos-arm64e.deb
+Size: 4008
+MD5sum: dd40e56a914c42cc542fab12052583c7
+SHA1: fd2bf111c1773c67da8e04a4818903d8473c1fc0
+SHA256: 1075ade57472be6c57885cf4f8c09cd76b4accf87501ecd30a70bf1357d78f14
+Section: Tweaks
+Description: 长按锁屏键手机电筒(息屏才触发)
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: 长按锁屏呼出手电筒
+
 Package: com.wkk.atria
 Version: 1.4.1-6
 Architecture: iphoneos-arm64e
@@ -303,6 +337,22 @@ Author: Nightwind
 Icon: https://sini921.github.io/repo/sileodepiction/icon/onesett.png
 Name: OneSettings
 Sponsor: wkk
+
+Package: com.wkk.photox
+Version: 1.0-2
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 356
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/com.wkk.photox_1.0-2_iphoneos-arm64e.deb
+Size: 24124
+MD5sum: 9372d175ea827c52bdced81edf31482c
+SHA1: eaed6f9f19f891a8a2e1c74b7616e7e89eed6731
+SHA256: c7719f45672fd46b57a77644605765af81fdcb07bbb30db34b9082f3d797c3f5
+Section: 相册相关
+Description: 相册增强(无永久删除功能，此功能用电话助手)
+Author: wkk
+Name: PhotoX
 
 Package: com.wkk.settingswidgets
 Version: 1.2.2
