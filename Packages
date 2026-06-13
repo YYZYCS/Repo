@@ -162,6 +162,25 @@ Author: SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/folderpro.png
 Name: FolderPro(roothide)
 
+Package: com.lowpowerbannertips
+Version: 1.1-3
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 200
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.lowpowerbannertips_1.1-3_iphoneos-arm64e.deb
+Size: 19124
+MD5sum: 3d832cad632cb55bc38031e509fcf239
+SHA1: 338f7f4256f37e6d8a1a03a3512ed80e365747fd
+SHA256: 8cc6c5bf18e58add7df6e2b2edd5d11707688f09d2a3f3a55bb61ede3465aad0
+Section: 插件
+Description: 将低电量弹窗改为横幅提示样式。
+Author: Netskao
+Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
+Name: 低电量通知横幅
+Sponsor: wkk
+
 Package: com.nathan.gridswitcher
 Version: 1.0.3
 Architecture: iphoneos-arm64e
