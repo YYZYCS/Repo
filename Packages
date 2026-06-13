@@ -442,6 +442,23 @@ Author: 预言小猫
 Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
 Name: 一键备份和恢复工具
 
+Package: com.yourepo.trollstore.14
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Maintainer: Muirey03 & lclrc <qiaozhani000@163.com>
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.yourepo.trollstore.14_1.1.0_iphoneos-arm64e.deb
+Size: 43588
+MD5sum: 2a2a6afb513c07080c1ff87cffd94ce2
+SHA1: 4c13596a641693849c3f999db3e2f15c2ded5319
+SHA256: d49a728937440a877b0148836bc91bdea1c258b702c532a5cad70cfd6b3c3610
+Section: 去录屏截图检测
+Description: 使手机在锁屏状态也可以继续录屏。
+Author: Muirey03 & lclrc <qiaozhani000@163.com>
+Icon: https://axs66.github.io/repo/icon/recordanywhere.png
+Name: 锁屏录屏
+
 Package: netskao.killapps-rootless
 Version: 1.2-2
 Architecture: iphoneos-arm64e
