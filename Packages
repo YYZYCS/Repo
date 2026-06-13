@@ -79,11 +79,11 @@ Maintainer: SINI
 Installed-Size: 1524
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.iZJ.folderpro_0.0.1-39_iphoneos-arm64e.deb
-Size: 520996
-MD5sum: 644cd7f423066521ec96e366f7f2498c
-SHA1: 0b3acc68a74d741fa615368faedca29c747ae5a8
-SHA256: 2cae8d5a285274fb17c2fad004af63e656205c34b374e78adc378276e49f7780
-Section: 任务界面
+Size: 521192
+MD5sum: 4f1faf867d34a937e6d265e2121536e7
+SHA1: ba757fe00164c86ff9d6967f8a1e87b9c5ee7eb8
+SHA256: b6031359073f0777aff091c67e3af0c175104f4d92d583c0d3b499d3e814f709
+Section: 桌面布局
 Description: 后台ipad网格切换界面，图标下载进度百分比，桌面文件夹布局各种功能(只有桌面文件夹里4*4等各种功能。没有桌面图标行列数量自定义功能，此功能用atria)。
 Author: SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/folderpro.png
