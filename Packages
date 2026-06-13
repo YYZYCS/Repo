@@ -378,12 +378,14 @@ Maintainer: iZJ
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
 Filename: ./debs/com.wkk.tweaktool_2.0.0-beta_iphoneos-arm64e.deb
-Size: 11244
-MD5sum: 410c666d6286b1c92160422bc215e0eb
-SHA1: 407b16914cd2f490e01e1a2bf337c6fe525f019b
-SHA256: 272c27625b536af9622e9f559cd1f2f1047fff1e4063ee38bfc1c38645e67e44
+Size: 11324
+MD5sum: 2e9aa775b9a2f6671e8ea0ef7a213967
+SHA1: dd530720c552659b490650db811fdc151dfead38
+SHA256: 75f3df42abf458f808c8fe91bf0d874cfc90423a3f8777ef6a7d9fa0c86b4d1e
 Section: #配置插件备份工具
-Description: 使用方法：Filza进入/var/mobile/Documents/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件。它是备份至.jb目录下，清除越狱之前一定要复制一份到非越狱.jb目录下。
+Description: 使用方法：Filza进入/var/mobile/Documents/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件。
+ .
+ 特别注意：它是备份至.jb目录下，清除越狱之前一定要复制一份到非越狱.jb目录下，源主iZJ之前中招过，恢复到原先状态折腾了一两周，非常痛苦！！！
 Author: 预言小猫
 Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
 Name: 一键备份和恢复工具
