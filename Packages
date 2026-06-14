@@ -54,6 +54,43 @@ Author: 0xkuj
 Icon: https://s1.imagehub.cc/images/2025/04/02/754b2bb601bad95dca5cb982e7d926af.jpeg
 Name: FilzaDirProbe
 
+Package: com.82flex.unseen
+Version: 0.0.2
+Architecture: iphoneos-arm64e
+Maintainer: 82flex
+Installed-Size: 484
+Depends: firmware (>= 15.0), preferenceloader
+Filename: ./debs/com.82flex.unseen_0.0.2_iphoneos-arm64e.deb
+Size: 43344
+MD5sum: 1439171511be328b04d9e18bea338e63
+SHA1: 93cc63c17caa6da7f0bce34e244f63cbf01f9455
+SHA256: 266195fc0adc2856c34cb6f9ea0253a02e91a3c8b3288350f38bf4a2f1d13e46
+Section: 去录屏截图检测
+Description: Neutralizes CALayer disableUpdateMask in the render server
+Author: 82flex
+Name: Unseen
+
+Package: com.cydia.love.recordpause-rootless
+Version: 2.0.6
+Architecture: iphoneos-arm64e
+Maintainer: Ant 蚂蚁源™ <admin@cydia.pro>
+Installed-Size: 200
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 11.0), firmware (<< 18.0)
+Conflicts: org.thebigboss.recordpause, com.spicat.recordpause
+Filename: ./debs/com.cydia.love.recordpause-rootless_2.0.6_iphoneos-arm64e.deb
+Size: 50628
+MD5sum: 7fc0b838050bac69a0f38cac7713e053
+SHA1: 6dd87fbd29b8370b264e29f5de97d9fdf2f0d013
+SHA256: 4dc711a0794a70e57d138d31f647fc403c81de08bbb18da4c93150b1e3523aed
+Section: 去录屏截图检测
+Description: 模仿iOS18功能，在开启相机录视频的时候左下角增加一个暂停键，非常的好用，从此以后录视频也可以暂停啦！
+Tag: 1
+Author: PoomSmart
+Icon: file:///Applications/Cydia.app/Sections/System.png
+Name: RecordPause录像暂停
+Sponsor: Ant 蚂蚁源™ <https://apt.cydia.pro/>
+
 Package: com.dao.snowboard
 Version: 1.5.37-Beta4
 Architecture: iphoneos-arm64e
@@ -196,6 +233,23 @@ Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This v
 Author: TIGI Software
 Name: Filza File Manager 64-bit
 
+Package: com.wkk.SBLockhook
+Version: 1.0-3
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.wkk.SBLockhook_1.0-3_iphoneos-arm64e.deb
+Size: 4012
+MD5sum: 5be03d3dcce8838194505cf277b080ee
+SHA1: 56cd6310ec5224bd5ed2c0c8fecabfe07420abe8
+SHA256: a402fd1b4424d9b6d1c5c578a92e39a7649c80c36bb6c22c0367a7cca6586fb5
+Section: 快捷开关手电筒
+Description: 长按锁屏键手机电筒(息屏才触发)
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: 长按锁屏呼出手电筒
+
 Package: com.wkk.immortalizer
 Version: 2.0.1
 Architecture: iphoneos-arm64
@@ -297,6 +351,22 @@ Section: 任务界面
 Description: 长按后台卡片清除所有后台、上滑黑名单等等，iZJ只用它的上滑黑名单功能。但是这个插件是netskao很久之前的，并且退网很久了，未适配roothide，即使转换为roothide安装能用，也大概率不定时安全模式或者手机卡死看门狗超时。
 Author: Netskao
 Name: KillApps-Rootless
+
+Package: netskao.perfectgrabber
+Version: 1.1-6
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 360
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, ws.hbang.alderis
+Filename: ./debs/netskao.perfectgrabber_1.1-6_arm64e.deb
+Size: 86686
+MD5sum: f81431b0e73c960d958844fa7a1757f3
+SHA1: 4ba39e62a2d7fb58bf7d68b450a158a2cd8246a8
+SHA256: 8e304c5fbeeb9ef3e4d8dde086cf3f1679882fb353c7071f97685c75c91bb7bb
+Section: Netskao-Tweaks
+Description: 在横屏游戏下拉一次时显示时间和电量（某些游戏不规范会无法唤出），支持自定义字体颜色，背景颜色，字体大小，字体样式，震动反馈等
+Author: Netskao
+Name: PerfectGrabber
 
 Package: oldabi
 Version: 0.3.1~4.f55e807
