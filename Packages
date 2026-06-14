@@ -1,0 +1,19 @@
+Package: apt.cydiakk.backgrounderaction15-rootless
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Maintainer: iZJ
+Installed-Size: 340
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/apt.cydiakk.backgrounderaction15-rootless_0.1.0_iphoneos-arm64e.deb
+Size: 11540
+MD5sum: 62e4973e632f153b19b25cd86ac6cfb6
+SHA1: f26f2e4947ab835c3d87460bee13fc2d394298b7
+SHA256: 9527cce39251339c1c0e2fedc7bbb5e2b19c855cadb7b92291d89697ba628596
+Section: 真后台
+Description: 点开一个APP，控制中心点击按钮即可
+Author: @akusio_RR
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Name: CCSupport真后台
+Sponsor: Cydiakk中文源™ <https://apt.cydiakk.com/>
+
