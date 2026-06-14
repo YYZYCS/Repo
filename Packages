@@ -109,25 +109,6 @@ Author: 妖刀
 Name: CCLess++(RootHide)
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
 
-Package: com.dao.snowboard
-Version: 1.5.37-Beta4
-Architecture: iphoneos-arm64e
-Maintainer: Spark
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader
-Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.spark.snowboard
-Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
-Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
-Filename: ./debs/SnowBoard(RootHide)-1.5.37-Beta4-iphoneos-arm64e.deb
-Size: 1115600
-MD5sum: 05cf932cb36a38864a6da969eae67137
-SHA1: c7717b9744bfb92e84e0f2549d28f727293a9735
-SHA256: 54a62ce3b937caec5eecc4ae9046a463f777558ee0af39ed4f71a5c15e136320
-Section: 嗨-系统
-Description: Snowboard 主题引擎！roothide主题路径：[jbroot]/Library/Themes
-Author: Spark & Dennis D. Bednarz
-Name: SnowBoard(RootHide)
-
 Package: com.iZJ.SBLockhook
 Version: 1.0-1
 Architecture: iphoneos-arm64e
@@ -551,37 +532,6 @@ Section: 任务界面
 Description: 长按后台卡片清除所有后台、上滑黑名单等等，iZJ只用它的上滑黑名单功能。但是这个插件是netskao很久之前的，并且退网很久了，未适配roothide，即使转换为roothide安装能用，也大概率不定时安全模式或者手机卡死看门狗超时。
 Author: Netskao
 Name: KillApps-Rootless
-
-Package: netskao.perfectgrabber
-Version: 1.1-6
-Architecture: iphoneos-arm64e
-Maintainer: Nets
-Installed-Size: 360
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, ws.hbang.alderis
-Filename: ./debs/netskao.perfectgrabber_1.1-6_arm64e.deb
-Size: 86686
-MD5sum: f81431b0e73c960d958844fa7a1757f3
-SHA1: 4ba39e62a2d7fb58bf7d68b450a158a2cd8246a8
-SHA256: 8e304c5fbeeb9ef3e4d8dde086cf3f1679882fb353c7071f97685c75c91bb7bb
-Section: Netskao-Tweaks
-Description: 在横屏游戏下拉一次时显示时间和电量（某些游戏不规范会无法唤出），支持自定义字体颜色，背景颜色，字体大小，字体样式，震动反馈等
-Author: Netskao
-Name: PerfectGrabber
-
-Package: oldabi
-Version: 0.3.1~4.f55e807
-Architecture: iphoneos-arm64e
-Maintainer: Evelyn
-Depends: mobilesubstrate, cy+cpu.arm64e, firmware (>= 15.0)
-Filename: ./debs/Legacy_0.3.1~4.f55e807_iphoneos-arm64e.deb
-Size: 13124
-MD5sum: b7955139db64e252776809c48b30a4e1
-SHA1: 7307058047c2baa3d24b0534a691a2a68b2e4e3b
-SHA256: 88c634db3c0fd7256178974495c38ecbfb596e3c073b115f18a19a056f6a215b
-Section: Tweak Injection
-Description: Support for legacy arm64e ABI in iOS 15.0+
-Author: Evelyn
-Name: Legacy arm64e Support
 
 Package: roothide.patches.filza
 Version: 0.5-4
