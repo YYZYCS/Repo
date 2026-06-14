@@ -1,23 +1,3 @@
-Package: apt.cydiakk.backgrounderaction15autostate-rootless
-Version: 1.0.3
-Architecture: iphoneos-arm64e
-Maintainer: iZJ
-Installed-Size: 384
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: apt.cydiakk.backgrounderaction15-rootless, com.opa334.altlist
-Conflicts: byg.iosios.net.backgrounderaction15autostate, byg.iosios.net.backgrounderaction15
-Filename: ./debs/apt.cydiakk.backgrounderaction15autostate-rootless_1.0.3_iphoneos-arm64e.deb
-Size: 28172
-MD5sum: 234dc6f8a1b2c286f0beb592361fce4d
-SHA1: a7d4dec200154bc59c69b657906be7755c46bed6
-SHA256: f2353725b936428f0fb2d7c672bc751518bade18d37e54a8104538af84bfe90b
-Section: 真后台
-Description: 一款自动真后台插件，配合里的真后台插件，实现打开某个APP自动设置真后台效果，无需复杂的操作！非常好用！
-Author: 0xkuj
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-Name: AutoState自动真后台
-Sponsor: Cydiakk中文源™ <https://apt.cydiakk.com/>
-
 Package: com.0xkuj.filzadirprobe
 Version: 1.7.2
 Architecture: iphoneos-arm64e
@@ -53,40 +33,20 @@ Author: Netskao
 Name: Filza Crack-roothide
 Sileodepiction: https://jailrepo.initnil.com/api?Package=com.netskao.filzacrack
 
-Package: com.wkk.immortalizer
-Version: 2.0.1
-Architecture: iphoneos-arm64
-Maintainer: iZJ
-Installed-Size: 660
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
-Conflicts: com.sergy.immortalizer
-Filename: ./debs/com.wkk.immortalizer_2.0.1_iphoneos-arm64.deb
-Size: 49364
-MD5sum: d408936706dd63e642822a6dc534fee4
-SHA1: e1aad8c2288f953292b537f4b7b514b859fc2b78
-SHA256: 3966c055db806b443ec9654ecac77df65af0c8208fe806d839ecf6fb0d908aae
-Section: 真后台
-Description: 可将应用置于前台，达到真后台效果，应用图标长按菜单 —— 开启/禁用「真后台」CC模块控制，需先打开要控制的app，然后控制中心点击模块即可。
-Author: sergy
-Icon: https://s1.imagehub.cc/images/2025/01/07/da88b1cfbc41a40634e3396891d98dc6.png
-Name: Immortalizer
-
-Package: roothide.patches.filza
-Version: 0.5-4
+Package: com.tigisoftware.filza64bit
+Version: 4.0.1-4~roothide
 Architecture: iphoneos-arm64e
-Maintainer: roothide
-Installed-Size: 268
-Depends: com.roothide.patchloader
-Recommends: com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
-Conflicts: com.tigisoftware.filza64bit (>> 4.0.1-4~roothide), com.tigisoftware.filza64bit (<< 4.0.1-4~roothide)
-Provides: patches-com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
-Filename: ./debs/roothide.patches.filza_0.5-4_iphoneos-arm64e.deb
-Size: 31040
-MD5sum: 168670c8e998af4a1d6b59747c5ccabc
-SHA1: 4dd7dd5946781f7844fa2756adbaa618162b2460
-SHA256: 7ea8571a336438a8595abd7bcdd764ceea756673c4325a0f816abb9d571cd957
+Maintainer: TIGI Software
+Pre-Depends: patches-com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: ./debs/com.tigisoftware.filza64bit_4.0.1-4~roothide_iphoneos-arm64e.deb
+Size: 6973484
+MD5sum: f09396710d355d4baad9448688b27d5f
+SHA1: 907c95dc37736311ffe8cb1fce390e2b1ce7bbe0
+SHA256: 1179833f19f617ad851607827f4e094ddd11b6356b9d1d07ea7290202220afe5
 Section: Filza
-Description: RootHide Dynamic Patches For Filza
-Author: roothide
-Name: Patches for Filza 64bit
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This version only supports 64-bit devices
+Author: TIGI Software
+Name: Filza File Manager 64-bit
 
