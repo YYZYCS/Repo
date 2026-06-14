@@ -1,0 +1,55 @@
+Package: com.sini921.morecomplications
+Version: 1.0-1
+Architecture: iphoneos-arm64e
+Maintainer: Skitty & SINI
+Installed-Size: 360
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), preferenceloader
+Filename: ./debs/com.sini921.morecomplications_1.0-1_iphoneos-arm64e.deb
+Size: 16904
+MD5sum: 7887080486c7026765d8ed9fe0a94ce8
+SHA1: 315e25d7ca2e028f135140f5143a9a0d6f41a3c0
+SHA256: b5ae12499736b0cbf77b81abbf264503ae965d5732c0477e0cd1981e98339673
+Section: 设置相关
+Description: 添加更多的锁屏小组件，基于开源重新编译，直接适配roothide。
+Author: Skitty & SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/morecomplications.png
+Name: MoreComplications(roothide)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/morecomplications/js.json
+
+Package: com.wkk.onesettings
+Version: 2.2
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 1084
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Conflicts: com.shepgoba.settingswidgets, com.creaturecoding.shuffle
+Filename: ./debs/com.wkk.onesettings_2.2_iphoneos-arm64e.deb
+Size: 224776
+MD5sum: 00b9f014c54ebfd410944d460250532b
+SHA1: e23f3bf5362a5ac0b924065885d48d563ffc2fc5
+SHA256: 337ce784e8ef2f7e47be5feed2aa7a1afcea6170d672bfa3a548fdb634eb0a2d
+Section: 设置相关
+Description: 插件归类，已汉化。
+Author: Nightwind
+Icon: https://sini921.github.io/repo/sileodepiction/icon/onesett.png
+Name: OneSettings
+Sponsor: wkk
+
+Package: com.wkk.settingswidgets
+Version: 1.2.2
+Architecture: iphoneos-arm64e
+Maintainer: shepgoba <arm64.deb@icloud.com>
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.wkk.settingswidgets_1.2.2_iphoneos-arm64e.deb
+Size: 75928
+MD5sum: ef9b2d54ec62f8aee1bd286476033318
+SHA1: d6907a5401e5d354d5fc774a607768b322be5ff2
+SHA256: 468dbcedb05ee2f13a66d6be67af3bdabff0cd12e443067590a840e66d54b717
+Section: 设置相关
+Description: 将美观的小部件带到设置的顶部，已汉化。
+Author: shepgoba <arm64.deb@icloud.com>
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: SettingsWidgets
+
