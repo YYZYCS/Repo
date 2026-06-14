@@ -177,6 +177,23 @@ Author: AnthoPak <anthopakdev@gmail.com>
 Icon: https://s1.imagehub.cc/images/2025/01/24/137ad8ab011c468fac23f82c8eb7c050.png
 Name: QuickPrefs
 
+Package: com.wkk.tweaktool
+Version: 2.0.0-beta
+Architecture: iphoneos-arm64e
+Maintainer: iZJ
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: ./debs/com.wkk.tweaktool_2.0.0-beta_iphoneos-arm64e.deb
+Size: 11312
+MD5sum: 4e672124fe807f5ec753c3b847fbc5ef
+SHA1: fdf70e9837f9938bef89cc389db6a9221200d930
+SHA256: e9d7dcaf8b6c1a5e98a528adbe0e6962d00c8afd437804b517612b5559b2c92d
+Section: #配置插件备份工具
+Description: 使用方法：Filza进入/var/mobile/Documents/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件。注意：它是备份至 .jb 目录下，清除越狱之前一定要复制一份到非越狱 .jb 目录下，源主iZJ之前忘记复制越狱给清除了，折腾了两周才完全搞好🥲。
+Author: 预言小猫
+Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
+Name: 一键备份和恢复工具
+
 Package: netskao.killapps-rootless
 Version: 1.2-2
 Architecture: iphoneos-arm64e
