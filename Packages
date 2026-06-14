@@ -252,6 +252,24 @@ Author: SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/folderpro.png
 Name: FolderPro(roothide)
 
+Package: com.sini921.morecomplications
+Version: 1.0-1
+Architecture: iphoneos-arm64e
+Maintainer: Skitty & SINI
+Installed-Size: 360
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), preferenceloader
+Filename: ./debs/com.sini921.morecomplications_1.0-1_iphoneos-arm64e.deb
+Size: 16904
+MD5sum: 7887080486c7026765d8ed9fe0a94ce8
+SHA1: 315e25d7ca2e028f135140f5143a9a0d6f41a3c0
+SHA256: b5ae12499736b0cbf77b81abbf264503ae965d5732c0477e0cd1981e98339673
+Section: 设置相关
+Description: 添加更多的锁屏小组件，基于开源重新编译，直接适配roothide。
+Author: Skitty & SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/morecomplications.png
+Name: MoreComplications(roothide)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/morecomplications/js.json
+
 Package: com.sini921.quickappskill
 Version: 0.0.1-9
 Architecture: iphoneos-arm64e
