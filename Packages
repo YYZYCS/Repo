@@ -1,3 +1,59 @@
+Package: apt.cydiakk.backgrounderaction15-rootless
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Maintainer: iZJ
+Installed-Size: 340
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/apt.cydiakk.backgrounderaction15-rootless_0.1.0_iphoneos-arm64e.deb
+Size: 11540
+MD5sum: 62e4973e632f153b19b25cd86ac6cfb6
+SHA1: f26f2e4947ab835c3d87460bee13fc2d394298b7
+SHA256: 9527cce39251339c1c0e2fedc7bbb5e2b19c855cadb7b92291d89697ba628596
+Section: 真后台
+Description: 点开一个APP，控制中心点击按钮即可
+Author: @akusio_RR
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Name: CCSupport真后台
+Sponsor: Cydiakk中文源™ <https://apt.cydiakk.com/>
+
+Package: apt.cydiakk.backgrounderaction15autostate-rootless
+Version: 1.0.3
+Architecture: iphoneos-arm64e
+Maintainer: iZJ
+Installed-Size: 384
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: apt.cydiakk.backgrounderaction15-rootless, com.opa334.altlist
+Conflicts: byg.iosios.net.backgrounderaction15autostate, byg.iosios.net.backgrounderaction15
+Filename: ./debs/apt.cydiakk.backgrounderaction15autostate-rootless_1.0.3_iphoneos-arm64e.deb
+Size: 28172
+MD5sum: 234dc6f8a1b2c286f0beb592361fce4d
+SHA1: a7d4dec200154bc59c69b657906be7755c46bed6
+SHA256: f2353725b936428f0fb2d7c672bc751518bade18d37e54a8104538af84bfe90b
+Section: 真后台
+Description: 一款自动真后台插件，配合里的真后台插件，实现打开某个APP自动设置真后台效果，无需复杂的操作！非常好用！
+Author: 0xkuj
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Name: AutoState自动真后台
+Sponsor: Cydiakk中文源™ <https://apt.cydiakk.com/>
+
+Package: com.0xkuj.filzadirprobe
+Version: 1.7.2
+Architecture: iphoneos-arm64e
+Maintainer: 0xkuj
+Installed-Size: 240
+Pre-Depends: rootless-compat (>= 0.9)
+Filename: ./debs/com.0xkuj.filzadirprobe_1.7.2_iphoneos-arm64e.deb
+Size: 71868
+MD5sum: 86da8ca2ca3cdeef7b7883a8d2e400f8
+SHA1: d151d6825209d97c309d278deefd020451419d1c
+SHA256: c199b18727b631f3898623db9d244f42bed442105088529cd5ade74b3f6d4e32
+Section: Filza
+Description: 计算Filza里文件夹大小。
+Author: 0xkuj
+Icon: https://s1.imagehub.cc/images/2025/04/02/754b2bb601bad95dca5cb982e7d926af.jpeg
+Name: FilzaDirProbe
+
 Package: com.82flex.unseen
 Version: 0.0.2
 Architecture: iphoneos-arm64e
@@ -53,6 +109,42 @@ Author: 妖刀
 Name: CCLess++(RootHide)
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
 
+Package: com.dao.snowboard
+Version: 1.5.37-Beta4
+Architecture: iphoneos-arm64e
+Maintainer: Spark
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.spark.snowboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: ./debs/com.dao.snowboard_1.5.37-Beta4_iphoneos-arm64e.deb
+Size: 1116176
+MD5sum: 8bec9f81f4a703053ee589fb60247739
+SHA1: 84bf34b0ab37a67498e5ecd70a62d58dd683370e
+SHA256: ba28a7987442fd47454d59c6d8ec65a4fc7a277d1e4032bada9b3257a005df39
+Section: Snowboard
+Description: Snowboard 主题引擎！roothide主题路径：[jbroot]/Library/Themes
+Author: Spark & Dennis D. Bednarz
+Name: SnowBoard(RootHide)
+
+Package: com.dao.snowboard.settingsicons
+Version: 1.0.26~Beta3
+Architecture: iphoneos-arm64e
+Maintainer: Spark
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.dao.snowboard (>= 1.2.100)
+Conflicts: com.spark.snowboard.settingsicons
+Filename: ./debs/com.dao.snowboard.settingsicons_1.0.26~Beta3_iphoneos-arm64e.deb
+Size: 17224
+MD5sum: fd71b8659d226712ac61b4f252225c8c
+SHA1: 22a08495e6e65622ad18d5a4e6b6abc9e85951ec
+SHA256: e20bb541ac2484f007ac5b5d5ec95ccf662dedece838a49ee24cf5a0f070b44d
+Section: Snowboard
+Description: SnowBoard 设置图标组件！
+Author: Spark
+Name: SnowBoard SetIcons(RootHide)
+
 Package: com.iZJ.folderpro
 Version: 0.0.1-39
 Architecture: iphoneos-arm64e
@@ -87,6 +179,24 @@ Description: 在iPhone上启用iPad网格切换器。
 Author: iZJ
 Icon: https://s1.imagehub.cc/images/2025/08/18/f78bb707db6fc3170ef7e00022645165.png
 Name: gridswitcher
+
+Package: com.netskao.filzacrack
+Version: 1.1-9
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 120
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.netskao.filzacrack_1.1-9_iphoneos-arm64e.deb
+Size: 28892
+MD5sum: 091fff4a033fc2f16af86bd3656e9183
+SHA1: 70eb6719c6b4c0370050343b4601784f5e719bb3
+SHA256: 47f7f963ba182efa0abae412107be4b5902ea6dc6ff4fad77a9a232de7f67b2a
+Section: Filza
+Description: Filza Crack
+Author: Netskao
+Name: Filza Crack-roothide
+Sileodepiction: https://jailrepo.initnil.com/api?Package=com.netskao.filzacrack
 
 Package: com.opa334.ccsupport
 Version: 1.3.13-2-15+debug
@@ -125,6 +235,24 @@ Author: SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/folderpro.png
 Name: FolderPro(roothide)
 
+Package: com.sini921.morecomplications
+Version: 1.0-1
+Architecture: iphoneos-arm64e
+Maintainer: Skitty & SINI
+Installed-Size: 360
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), preferenceloader
+Filename: ./debs/com.sini921.morecomplications_1.0-1_iphoneos-arm64e.deb
+Size: 16904
+MD5sum: 7887080486c7026765d8ed9fe0a94ce8
+SHA1: 315e25d7ca2e028f135140f5143a9a0d6f41a3c0
+SHA256: b5ae12499736b0cbf77b81abbf264503ae965d5732c0477e0cd1981e98339673
+Section: 设置相关
+Description: 添加更多的锁屏小组件，基于开源重新编译，直接适配roothide。
+Author: Skitty & SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/morecomplications.png
+Name: MoreComplications(roothide)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/morecomplications/js.json
+
 Package: com.sini921.quickappskill
 Version: 0.0.1-9
 Architecture: iphoneos-arm64e
@@ -143,6 +271,23 @@ Author: SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/quickappskill.png
 Name: QuickAppsKill(rootless)
 
+Package: com.tigisoftware.filza64bit
+Version: 4.0.1-4~roothide
+Architecture: iphoneos-arm64e
+Maintainer: TIGI Software
+Pre-Depends: patches-com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: ./debs/com.tigisoftware.filza64bit_4.0.1-4~roothide_iphoneos-arm64e.deb
+Size: 6973484
+MD5sum: f09396710d355d4baad9448688b27d5f
+SHA1: 907c95dc37736311ffe8cb1fce390e2b1ce7bbe0
+SHA256: 1179833f19f617ad851607827f4e094ddd11b6356b9d1d07ea7290202220afe5
+Section: Filza
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This version only supports 64-bit devices
+Author: TIGI Software
+Name: Filza File Manager 64-bit
+
 Package: com.wkk.atria
 Version: 1.4.1-6
 Architecture: iphoneos-arm64e
@@ -160,6 +305,24 @@ Author: ren7995 & SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/atria.png
 Name: Atria
 
+Package: com.wkk.filzaswipeselect
+Version: 0.0.2
+Architecture: iphoneos-arm64e
+Maintainer: korboy <korboybeats@gmail.com>
+Installed-Size: 184
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.wkk.filzaswipeselect_0.0.2_iphoneos-arm64e.deb
+Size: 47596
+MD5sum: a497c8d9c7af653ab0a387439ccc7342
+SHA1: 13f5ff67936f5f3eca83b437becafc7c1126b5b6
+SHA256: 0861928b2293ff669cbaa96571ca10442524ad38cd7e1535a35207a756ce5693
+Section: Filza
+Description: Filza的滑动多选功能。
+Author: korboy <korboybeats@gmail.com>
+Icon: https://sini921.github.io/repo/sileodepiction/icon/filzaswipeselect.png
+Name: FilzaSwipeSelect
+
 Package: com.wkk.hookcc
 Version: 1.0
 Architecture: iphoneos-arm64e
@@ -175,6 +338,44 @@ Description: 控制中心音量亮度增加百分比。
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
 Name: 控制中心音量亮度增加百分比
+
+Package: com.wkk.immortalizer
+Version: 2.0.1
+Architecture: iphoneos-arm64
+Maintainer: iZJ
+Installed-Size: 660
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
+Conflicts: com.sergy.immortalizer
+Filename: ./debs/com.wkk.immortalizer_2.0.1_iphoneos-arm64.deb
+Size: 49364
+MD5sum: d408936706dd63e642822a6dc534fee4
+SHA1: e1aad8c2288f953292b537f4b7b514b859fc2b78
+SHA256: 3966c055db806b443ec9654ecac77df65af0c8208fe806d839ecf6fb0d908aae
+Section: 真后台
+Description: 可将应用置于前台，达到真后台效果，应用图标长按菜单 —— 开启/禁用「真后台」CC模块控制，需先打开要控制的app，然后控制中心点击模块即可。
+Author: sergy
+Icon: https://s1.imagehub.cc/images/2025/01/07/da88b1cfbc41a40634e3396891d98dc6.png
+Name: Immortalizer
+
+Package: com.wkk.onesettings
+Version: 2.2
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 1084
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Conflicts: com.shepgoba.settingswidgets, com.creaturecoding.shuffle
+Filename: ./debs/com.wkk.onesettings_2.2_iphoneos-arm64e.deb
+Size: 224776
+MD5sum: 00b9f014c54ebfd410944d460250532b
+SHA1: e23f3bf5362a5ac0b924065885d48d563ffc2fc5
+SHA256: 337ce784e8ef2f7e47be5feed2aa7a1afcea6170d672bfa3a548fdb634eb0a2d
+Section: 设置相关
+Description: 插件归类，已汉化。
+Author: Nightwind
+Icon: https://sini921.github.io/repo/sileodepiction/icon/onesett.png
+Name: OneSettings
+Sponsor: wkk
 
 Package: com.wkk.proxysc
 Version: 1.0
@@ -192,6 +393,40 @@ Description: 下载后脚本文件在/var/mobile/Documents/自行使用。
 Author: 网络资源
 Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
 Name: 去App录屏检测（下载后TrollFools注入）
+
+Package: com.wkk.quickprefs
+Version: 1.3.3-1
+Architecture: iphoneos-arm64e
+Maintainer: iZJ
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=11.0), mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 11.0)
+Filename: ./debs/com.wkk.quickprefs_1.3.3-1_iphoneos-arm64e.deb
+Size: 513544
+MD5sum: d52f6d3bfc14a153d426145955749afc
+SHA1: 6e81bde37862c4bdb9078dfe0324cba33319707b
+SHA256: 717ab020f6a04ddec1d92447a402119dae629fda3bbd340eaedbdf5553e004ab
+Section: Url_Schedule抓取
+Description: 抓设置里的URL_Schedule，配合鱿鱼手势可一键快捷跳转到设置任何指定页面。项目抓取，已汉化，上架备份。
+Author: AnthoPak <anthopakdev@gmail.com>
+Icon: https://s1.imagehub.cc/images/2025/01/24/137ad8ab011c468fac23f82c8eb7c050.png
+Name: QuickPrefs
+
+Package: com.wkk.settingswidgets
+Version: 1.2.2
+Architecture: iphoneos-arm64e
+Maintainer: shepgoba <arm64.deb@icloud.com>
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.wkk.settingswidgets_1.2.2_iphoneos-arm64e.deb
+Size: 75928
+MD5sum: ef9b2d54ec62f8aee1bd286476033318
+SHA1: d6907a5401e5d354d5fc774a607768b322be5ff2
+SHA256: 468dbcedb05ee2f13a66d6be67af3bdabff0cd12e443067590a840e66d54b717
+Section: 设置相关
+Description: 将美观的小部件带到设置的顶部，已汉化。
+Author: shepgoba <arm64.deb@icloud.com>
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: SettingsWidgets
 
 Package: com.wkk.tweaktool
 Version: 2.0.0-beta
@@ -243,4 +478,43 @@ Section: 任务界面
 Description: 长按后台卡片清除所有后台、上滑黑名单等等，iZJ只用它的上滑黑名单功能。但是这个插件是netskao很久之前的，并且退网很久了，未适配roothide，即使转换为roothide安装能用，也大概率不定时安全模式或者手机卡死看门狗超时。
 Author: Netskao
 Name: KillApps-Rootless
+
+Package: roothide.patches.filza
+Version: 0.5-4
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 268
+Depends: com.roothide.patchloader
+Recommends: com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
+Conflicts: com.tigisoftware.filza64bit (>> 4.0.1-4~roothide), com.tigisoftware.filza64bit (<< 4.0.1-4~roothide)
+Provides: patches-com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
+Filename: ./debs/roothide.patches.filza_0.5-4_iphoneos-arm64e.deb
+Size: 31040
+MD5sum: 168670c8e998af4a1d6b59747c5ccabc
+SHA1: 4dd7dd5946781f7844fa2756adbaa618162b2460
+SHA256: 7ea8571a336438a8595abd7bcdd764ceea756673c4325a0f816abb9d571cd957
+Section: Filza
+Description: RootHide Dynamic Patches For Filza
+Author: roothide
+Name: Patches for Filza 64bit
+
+Package: ws.hbang.common
+Version: 2.0-29
+Architecture: iphoneos-arm64e
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 3132
+Depends: firmware (>= 15.0)
+Filename: ./debs/Cephei Tweak Support-2.0-29-iphoneos-arm64e.deb
+Size: 270008
+MD5sum: 87a3dcf29b82307d0b3189671aad263c
+SHA1: d38accd9a88e6c58669addbcc26e2e8e3fce02b9
+SHA256: ce38484af39d3e0d5dd0e44f84b9be0d49b0cddff378111bb1f089c7f1c7e9b4
+Section: Url_Schedule抓取
+Description: Support library for tweaks
+Tag: role::developer, compatible_min::ios15.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/cephei
+Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
+Name: Cephei Tweak Support
+Support: https://hashbang.productions/support/
 
