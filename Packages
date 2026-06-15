@@ -145,6 +145,63 @@ Description: SnowBoard 设置图标组件！
 Author: Spark
 Name: SnowBoard SetIcons(RootHide)
 
+Package: com.foxfort.foxforttools
+Version: 1.4.15
+Architecture: iphoneos-arm64e
+Maintainer: FoxfortMobile
+Installed-Size: 2068
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.foxfort.libfoxfortutils (>= 1.4.9)
+Conflicts: com.hackyouriphone.foxforthack, com.pulandres.foxforthack, org.cydia.kiimo.foxforthack, ru.rejail.foxforthack, me.pulandres.foxforttools, co.xrepo.appletweakjailbreak.foxforttools, net.kenhtao.foxforttools, sileoturkiye.foxforttools, com.yourepo.mohadu31.foxforttools, org.cydia.kiimo.foxforttools, com.hackyouriphone.foxforttools, com.hackyouriphone.mgspoof, org.mr.mgspoof, com.34306.foxforttools, r-o-o-t-l-e-s-s-, com.r-o-o-t-l-e-s-s-.manager
+Filename: ./debs/com.foxfort.foxforttools_1.4.15_iphoneos-arm64e.deb
+Size: 468772
+MD5sum: fdb1539fda83c852eb8785ed3b346fa0
+SHA1: 531dfd51cae6c9e80f76a3211e1f913038918caf
+SHA256: b463536ad759a1dc311b5b525c878d0726c5da14941bcbcccdc1ffa5fdb03f1b
+Section: Snapper
+Description: Helper tools for Foxfort tweaks. 隐根请用foxfort1.4.15、fortutils1.4.9、translomtic2.18.31，否则安全。
+Tag: role::developer
+Author: FoxfortMobile
+Name: FoxFort Tools
+
+Package: com.foxfort.libfoxfortutils
+Version: 1.4.9
+Architecture: iphoneos-arm64e
+Maintainer: FoxfortMobile
+Installed-Size: 1304
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), com.opa334.libsandy
+Conflicts: co.xrepo.appletweakjailbreak.libfoxfortutils, co.xrepo.appletweakjailbreak.libfoxfortutils64, org.cydia.kiimo.libfoxfortutils64, org.cydia.kiimo.libfoxfortutils64e, com.hackyouriphone.libfoxfortutils64, com.hackyouriphone.libfoxfortutils64e, com.yourepo.mohadu31.libfoxfortutils64, me.pulandres.libfoxfortutils64, me.pulandres.libfoxfortutils64e, net.kenhtao.libfoxfortutils64, sileoturkiye.libfoxfortutils64, sileoturkiye.libfoxfortutils64e, com.badr.libfoxfortutils, com.hackyouriphone.mgspoof, org.mr.mgspoof, com.34306.libfoxfortutils, r-o-o-t-l-e-s-s-
+Filename: ./debs/com.foxfort.libfoxfortutils_1.4.9_iphoneos-arm64e.deb
+Size: 282532
+MD5sum: 9868cc3b38544fbf4ec0e05b09cbe9bc
+SHA1: 9dd56627ec25a1e254b841e6b4fa69e789e9c5cc
+SHA256: f800f9298b0dd4dbd1de061014e3501c33c4f5123bed0bf21fe204f7ff5c7a9d
+Section: Snapper
+Description: library for Foxfort tweaks.隐根请用foxfort1.4.15、fortutils1.4.9、translomtic2.18.31，否则安全。
+Tag: role::developer
+Author: FoxfortMobile
+Name: libfoxfortutils
+
+Package: com.foxfort.translomatic
+Version: 2.18.31
+Architecture: iphoneos-arm64e
+Maintainer: FoxfortMobile
+Installed-Size: 5080
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.foxfort.foxforttools (>= 1.4.15), com.opa334.altlist
+Conflicts: me.pulandres.translomatic, me.pulandres.translomatice, co.xrepo.appletweakjailbreak.translomatic, net.kenhtao.translomatic, sileoturkiye.translomatic, sileoturkiye.translomatic12, com.yourepo.mohadu31.translomatic, com.yourepo.mohadu31.translomatice, org.cydia.kiimo.translomatic, com.hackyouriphone.translomatic, com.hackyouriphone.translomatice, co.hurouftech.translomatic, me.sa3odka.translomatic, com.cydiabc.translomaticzh, x7mii.vip.translomatic, com.bo7ios.translomatic, ru.rj.translomatichack, com.hk.translomatic.cn.rl, r-o-o-t-l-e-s-s-
+Filename: ./debs/com.foxfort.translomatic_2.18.31_iphoneos-arm64e.deb
+Size: 1169120
+MD5sum: beb1b32e3d5aeada59edeb623ba4ca41
+SHA1: 821a0b712cc78c407c7229b65c7cce6c45fcd9e2
+SHA256: b9902b0a1cec0e360f036847c1805f0810abab845ab0fc2897117308777af6ea
+Section: Snapper
+Description: Quickly translate any text. 隐根请用foxfort1.4.15、fortutils1.4.9、translomtic2.18.31，否则安全。
+Author: FoxfortMobile
+Icon: file:///Library/PreferenceBundles/translomaticsettings.bundle/icon@3x.png
+Name: Translomatic
+
 Package: com.iZJ.folderpro
 Version: 0.0.1-39
 Architecture: iphoneos-arm64e
@@ -161,6 +218,42 @@ Description: 后台ipad网格切换界面，图标下载进度百分比，桌面
 Author: SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/folderpro.png
 Name: FolderPro(roothide)
+
+Package: com.jontelang.snapper3
+Version: 1.2.1
+Architecture: iphoneos-arm64e
+Maintainer: Jonathan Winger-lang
+Installed-Size: 4148
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: ./debs/com.jontelang.snapper3_1.2.1_iphoneos-arm64e.deb
+Size: 1041804
+MD5sum: 3e1ee5ab395eb55e9f9e7df59603ee45
+SHA1: ccb1723011612e856221b346ef6beaee174fb9fd
+SHA256: 6675435550969393fd06ccf90c1104ed0cba6790dded5199c342cb60d5da5cc8
+Section: Snapper
+Description: Pin screenshots on the screen.
+Author: Jonathan Winger-lang
+Name: Snapper 3
+
+Package: com.lclrc.hammerit
+Version: 1.7.0
+Architecture: iphoneos-arm64e
+Maintainer: lclrc(SquidForce)
+Installed-Size: 3808
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
+Filename: ./debs/com.lclrc.hammerit_1.7.0_iphoneos-arm64e.deb
+Size: 987276
+MD5sum: 8c434bd0f5bc88ab9c5472094685c435
+SHA1: c9660ed07464f03c1c6a4f391160785f1a58ebde
+SHA256: e744e765c2a82b399ff434fff6e8424e4f890bf3a1ce6d88b8bd6d3761ab0c3a
+Section: Snapper
+Description: Control your text or translate as you wish.
+Author: lclrc(SquidForce)
+Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
+Name: Hammer It
 
 Package: com.nathan.gridswitcher
 Version: 1.0.3
@@ -270,6 +363,23 @@ Description: 在后台界面添加一个清除所有App的按钮，电话助手�
 Author: SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/quickappskill.png
 Name: QuickAppsKill(rootless)
+
+Package: com.susu.snapper3.picta
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: SuSu
+Installed-Size: 180
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.jontelang.snapper3 (>= 1.1.1)
+Filename: ./debs/com.susu.snapper3.picta_1.0.0_iphoneos-arm64e.deb
+Size: 11560
+MD5sum: e455bd8d60cf95df1f1931217836ef13
+SHA1: 705bb4601e98fee1fe89dc95d4a8c23b31d1704d
+SHA256: bd3805fd48e464fe46370e563f772060aca0186956b1fcc6973c9a371fa1139c
+Section: Snapper
+Description: Picta适配 Snapper3 的插件
+Author: SuSu
+Name: Picta
 
 Package: com.tigisoftware.filza64bit
 Version: 4.0.1-4~roothide
@@ -427,6 +537,24 @@ Description: 将美观的小部件带到设置的顶部，已汉化。
 Author: shepgoba <arm64.deb@icloud.com>
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Name: SettingsWidgets
+
+Package: com.wkk.snapper31
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Depends: mobilesubstrate, firmware (>= 15.0)
+Replaces: com.lclrc.hammerit, com.jontelang.snapper3,byg.iosios.net.bigshotsnapper3plugin,com.dao.bigshotsnapper3plugin,com.squidforce.snapper3.plugins
+Filename: ./debs/com.wkk.snapper31_1.1-1_iphoneos-arm64.deb
+Size: 21780
+MD5sum: 46173eab5a84357122791581cadf8c45
+SHA1: d0a1d142d16f1519e2b469d08b8ba9a08541d7f5
+SHA256: 22dacc2f9c2a30582aa19aab9ad808bb70465790ef019486e090b2f412b837de
+Section: Snapper
+Description: 纯文字美化。
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/02/27/f9eb963b7be6a61103d287689931b7d7.png
+Name: Snapper3美化
+Sileodepiction: https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/snapper3.json
 
 Package: com.wkk.tweaktool
 Version: 2.0.0-beta
