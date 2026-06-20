@@ -510,6 +510,22 @@ Icon: https://sini921.github.io/repo/sileodepiction/icon/onesett.png
 Name: OneSettings
 Sponsor: wkk
 
+Package: com.wkk.photox
+Version: 1.0-4
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 356
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/com.wkk.photox_1.0-4_iphoneos-arm64e.deb
+Size: 16172
+MD5sum: 20383a54696828b2cf247a804b25fc10
+SHA1: 6c68efff0ca4a90c3699ac5ac7b3356cb83a47a7
+SHA256: b85b9ad95803702fd7ab9fceef3fee1df0262e2024a2666023c5c0c7179f274b
+Section: 相册增强
+Description: Custom Photos app behavior(无永久删除照片确认选项功能，这个用电话助手)
+Author: wkk
+Name: PhotoX
+
 Package: com.wkk.proxysc
 Version: 1.0
 Architecture: iphoneos-arm64e
