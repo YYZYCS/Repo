@@ -283,7 +283,7 @@ Maintainer: Korboy <korboybeats@gmail.com>
 Installed-Size: 108532
 Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
 Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
-Filename: ./debs/abc.deb
+Filename: ./debs/com.korboy.filzaenhanced_1.0.7.3_iphoneos-arm64e.deb
 Size: 24257102
 MD5sum: df3d4dcff10815aa9219fe20f64954bb
 SHA1: 0ac1086feb52faec31af965eee32a81d4fe677bc
