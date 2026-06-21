@@ -294,6 +294,23 @@ Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 Name: Hammer It
 
+Package: com.mtac.lynxtwo
+Version: 2.5.4
+Architecture: iphoneos-arm64e
+Maintainer: MTAC
+Installed-Size: 2952
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Filename: ./debs/com.mtac.lynxtwo_2.5.4_iphoneos-arm64e-1.deb
+Size: 1717132
+MD5sum: 9295dc3b19464499988588b9e19ac003
+SHA1: f793f9001e859100ab690277d1efc0da7ebc8da3
+SHA256: d755894dc4674ee0cd6bcc914c65538b738994720142bbc45bd21a998e71f507
+Section: Tweaks
+Description: Ultimate iDevice Customization for iOS 14, 15 & 16
+Author: MTAC
+Name: Lynx 2
+
 Package: com.nathan.gridswitcher
 Version: 1.0.3
 Architecture: iphoneos-arm64e
