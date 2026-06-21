@@ -242,6 +242,22 @@ Author: SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/folderpro.png
 Name: FolderPro(roothide)
 
+Package: com.iosdump.jumpselect
+Version: 0.0.4
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 476
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.jumpselect_0.0.4_iphoneos-arm64e.deb
+Size: 55816
+MD5sum: fb15956b63f89693df9ea317ce3e54fe
+SHA1: 0237b56e99adc7ab9c7c65aac288948c675d2247
+SHA256: 019cd7912ffff9069626de966811c90ed813dfdfc7b8e363f71db61d5c547f7c
+Section: 跳转重定向选择器
+Description: 仅越狱使用。支持iOS14-17所有越狱App跳转拦截重定向选择器。插件用处：例如付款时使用微信登陆可以像安卓手机一样有个选择器，选择那个多开微信。解除多年的苹果多开应用不方便应用之间跳转的大需求，超实用！
+Author: iosdump
+Name: JumpSelect
+
 Package: com.jontelang.snapper3
 Version: 1.2.1
 Architecture: iphoneos-arm64e
