@@ -379,24 +379,6 @@ Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
 Name: 控制中心音量亮度增加百分比
 
-Package: com.wkk.immortalizer
-Version: 2.0.1
-Architecture: iphoneos-arm64
-Maintainer: iZJ
-Installed-Size: 660
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
-Conflicts: com.sergy.immortalizer
-Filename: ./debs/com.wkk.immortalizer_2.0.1_iphoneos-arm64.deb
-Size: 49364
-MD5sum: d408936706dd63e642822a6dc534fee4
-SHA1: e1aad8c2288f953292b537f4b7b514b859fc2b78
-SHA256: 3966c055db806b443ec9654ecac77df65af0c8208fe806d839ecf6fb0d908aae
-Section: 真后台
-Description: 可将应用置于前台，达到真后台效果，应用图标长按菜单 —— 开启/禁用「真后台」CC模块控制，需先打开要控制的app，然后控制中心点击模块即可。
-Author: sergy
-Icon: https://s1.imagehub.cc/images/2025/01/07/da88b1cfbc41a40634e3396891d98dc6.png
-Name: Immortalizer
-
 Package: com.wkk.onesettings
 Version: 2.2
 Architecture: iphoneos-arm64e
