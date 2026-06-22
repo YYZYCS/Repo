@@ -385,23 +385,6 @@ Description: Picta适配 Snapper3 的插件
 Author: SuSu
 Name: Picta
 
-Package: com.tigisoftware.filza64bit
-Version: 4.0.1-4~roothide
-Architecture: iphoneos-arm64e
-Maintainer: TIGI Software
-Pre-Depends: patches-com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
-Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
-Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
-Filename: ./debs/com.tigisoftware.filza64bit_4.0.1-4~roothide_iphoneos-arm64e.deb
-Size: 6972824
-MD5sum: 25ccf6f4f5fb5d7859392cdf0f84a2b8
-SHA1: 59f43214281039afa8c2dfd257e709ae6b9b0fce
-SHA256: 4b42a48c37ceda96a15cab66d517e85e03b988479364e1fdb6fc3c2f9ff14897
-Section: Filza
-Description: 本体：File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This version only supports 64-bit devices
-Author: TIGI Software
-Name: Filza File Manager 64-bit
-
 Package: com.wkk.atria
 Version: 1.4.1-6
 Architecture: iphoneos-arm64e
