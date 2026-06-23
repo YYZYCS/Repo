@@ -97,24 +97,6 @@ Icon: file:///Applications/Cydia.app/Sections/System.png
 Name: RecordPause录像暂停
 Sponsor: Ant 蚂蚁源™ <https://apt.cydia.pro/>
 
-Package: com.dao.ccless
-Version: 2.1.0.1
-Architecture: iphoneos-arm64e
-Maintainer: 妖刀
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.roothide.cc, com.hk.rootless.cc
-Filename: ./debs/com.dao.ccless_2.1.0.1_iphoneos-arm64e.deb
-Size: 498004
-MD5sum: 7f7ca4c529866aef45f2515d548b4c49
-SHA1: aba20b9c7f32a63359a68f0b2df58911d08121ed
-SHA256: 4458cee2b9cf299f2d5632e9351032f6d1ec2ba91d7a806aed8700342003c482
-Section: 控制中心
-Description: 超级控制中心模块集合！
-Author: 妖刀
-Name: CCLess++(RootHide)
-Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
-
 Package: com.foxfort.foxforttools
 Version: 1.4.15
 Architecture: iphoneos-arm64e
@@ -368,22 +350,6 @@ Description: 桌面布局各种功能(如桌面图标行列数量自定义功能
 Author: ren7995 & SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/atria.png
 Name: Atria
-
-Package: com.wkk.hookcc
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: wkk
-Depends: firmware (>= 14.0), mobilesubstrate
-Filename: ./debs/com.wkk.hookcc_1.0_iphoneos-arm64e.deb
-Size: 5552
-MD5sum: 7a11eafe7393fe7d86362c92f13b304f
-SHA1: 81c28d4a78a6188594af65c253d0fe2b9565cc92
-SHA256: 366b0a12eb06b644e1519795c7ce87f0e666b3894ae9ca2934a3778fd4506750
-Section: 控制中心
-Description: 控制中心音量亮度增加百分比。
-Author: wkk
-Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
-Name: 控制中心音量亮度增加百分比
 
 Package: com.wkk.proxysc
 Version: 1.0
