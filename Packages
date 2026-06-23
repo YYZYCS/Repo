@@ -403,42 +403,6 @@ Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
 Name: 控制中心音量亮度增加百分比
 
-Package: com.wkk.onesettings
-Version: 2.2
-Architecture: iphoneos-arm64e
-Maintainer: wkk
-Installed-Size: 1084
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
-Conflicts: com.shepgoba.settingswidgets, com.creaturecoding.shuffle
-Filename: ./debs/com.wkk.onesettings_2.2_iphoneos-arm64e.deb
-Size: 224776
-MD5sum: 00b9f014c54ebfd410944d460250532b
-SHA1: e23f3bf5362a5ac0b924065885d48d563ffc2fc5
-SHA256: 337ce784e8ef2f7e47be5feed2aa7a1afcea6170d672bfa3a548fdb634eb0a2d
-Section: 设置相关
-Description: 插件归类，已汉化。
-Author: Nightwind
-Icon: https://sini921.github.io/repo/sileodepiction/icon/onesett.png
-Name: OneSettings
-Sponsor: wkk
-
-Package: com.wkk.photox
-Version: 1.0-4
-Architecture: iphoneos-arm64e
-Maintainer: wkk
-Installed-Size: 356
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: ./debs/com.wkk.photox_1.0-4_iphoneos-arm64e.deb
-Size: 16172
-MD5sum: 20383a54696828b2cf247a804b25fc10
-SHA1: 6c68efff0ca4a90c3699ac5ac7b3356cb83a47a7
-SHA256: b85b9ad95803702fd7ab9fceef3fee1df0262e2024a2666023c5c0c7179f274b
-Section: 相册增强
-Description: Custom Photos app behavior(无永久删除照片确认选项功能，这个用电话助手)
-Author: wkk
-Name: PhotoX
-
 Package: com.wkk.proxysc
 Version: 1.0
 Architecture: iphoneos-arm64e
