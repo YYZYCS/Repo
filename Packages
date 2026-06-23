@@ -438,6 +438,24 @@ Author: ren7995 & SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/atria.png
 Name: Atria
 
+Package: com.wkk.filzaswipeselect
+Version: 0.0.2
+Architecture: iphoneos-arm64e
+Maintainer: korboy <korboybeats@gmail.com>
+Installed-Size: 184
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.wkk.filzaswipeselect_0.0.2_iphoneos-arm64e.deb
+Size: 47596
+MD5sum: a497c8d9c7af653ab0a387439ccc7342
+SHA1: 13f5ff67936f5f3eca83b437becafc7c1126b5b6
+SHA256: 0861928b2293ff669cbaa96571ca10442524ad38cd7e1535a35207a756ce5693
+Section: Filza
+Description: Filza的滑动多选功能。
+Author: korboy <korboybeats@gmail.com>
+Icon: https://sini921.github.io/repo/sileodepiction/icon/filzaswipeselect.png
+Name: FilzaSwipeSelect
+
 Package: com.wkk.hookcc
 Version: 1.0
 Architecture: iphoneos-arm64e
