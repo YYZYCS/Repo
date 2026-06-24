@@ -275,23 +275,6 @@ Author: ren7995 & SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/atria.png
 Name: Atria
 
-Package: com.wkk.proxysc
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: 网络资源
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
-Filename: ./debs/com.wkk.proxysc_1.0_iphoneos-arm64e.deb
-Size: 38116
-MD5sum: 65da9adf7240fe1244b3065c14cf1e96
-SHA1: 1493a4aded34db72321e5a062af789d603f6d9eb
-SHA256: d4c52a76997752f16862b05d6d52a934841c95d5763100681e65d681dc423b93
-Section: 去录屏截图检测
-Description: 下载后脚本文件在/var/mobile/Documents/自行使用。
-Author: 网络资源
-Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
-Name: 去App录屏检测（下载后TrollFools注入）
-
 Package: com.wkk.snapper31
 Version: 1.1-1
 Architecture: iphoneos-arm64
@@ -326,23 +309,6 @@ Description: 使用方法：进入/var/mobile/Documents/tweak_tool/目录，运�
 Author: 预言小猫
 Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
 Name: 一键备份和恢复工具
-
-Package: com.yourepo.trollstore.14
-Version: 1.1.0
-Architecture: iphoneos-arm64e
-Maintainer: Muirey03 & lclrc <qiaozhani000@163.com>
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate
-Filename: ./debs/com.yourepo.trollstore.14_1.1.0_iphoneos-arm64e.deb
-Size: 43588
-MD5sum: 2a2a6afb513c07080c1ff87cffd94ce2
-SHA1: 4c13596a641693849c3f999db3e2f15c2ded5319
-SHA256: d49a728937440a877b0148836bc91bdea1c258b702c532a5cad70cfd6b3c3610
-Section: 去录屏截图检测
-Description: 使手机在锁屏状态也可以继续录屏。
-Author: Muirey03 & lclrc <qiaozhani000@163.com>
-Icon: https://axs66.github.io/repo/icon/recordanywhere.png
-Name: 锁屏录屏
 
 Package: netskao.killapps-rootless
 Version: 1.2-2
