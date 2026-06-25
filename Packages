@@ -507,6 +507,23 @@ Author: 网络资源
 Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
 Name: 去App录屏检测（下载后TrollFools注入）
 
+Package: com.wkk.quickprefs
+Version: 1.3.3-1
+Architecture: iphoneos-arm64e
+Maintainer: iZJ
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=11.0), mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 11.0)
+Filename: ./debs/com.wkk.quickprefs_1.3.3-1_iphoneos-arm64e.deb
+Size: 513544
+MD5sum: d52f6d3bfc14a153d426145955749afc
+SHA1: 6e81bde37862c4bdb9078dfe0324cba33319707b
+SHA256: 717ab020f6a04ddec1d92447a402119dae629fda3bbd340eaedbdf5553e004ab
+Section: Url_Schedule抓取
+Description: 抓设置里的URL_Schedule，配合鱿鱼手势可一键快捷跳转到设置任何指定页面。项目抓取，已汉化，上架备份。
+Author: AnthoPak <anthopakdev@gmail.com>
+Icon: https://s1.imagehub.cc/images/2025/01/24/137ad8ab011c468fac23f82c8eb7c050.png
+Name: QuickPrefs
+
 Package: com.wkk.snapper31
 Version: 1.1-1
 Architecture: iphoneos-arm64
