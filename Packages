@@ -132,6 +132,42 @@ Author: 妖刀
 Name: CCLess++(RootHide)
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
 
+Package: com.dao.snowboard
+Version: 1.5.37-Beta4
+Architecture: iphoneos-arm64e
+Maintainer: Spark
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.spark.snowboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: ./debs/com.dao.snowboard_1.5.37-Beta4_iphoneos-arm64e.deb
+Size: 1116176
+MD5sum: 8bec9f81f4a703053ee589fb60247739
+SHA1: 84bf34b0ab37a67498e5ecd70a62d58dd683370e
+SHA256: ba28a7987442fd47454d59c6d8ec65a4fc7a277d1e4032bada9b3257a005df39
+Section: Snowboard
+Description: Snowboard 主题引擎！roothide主题路径：[jbroot]/Library/Themes
+Author: Spark & Dennis D. Bednarz
+Name: SnowBoard(RootHide)
+
+Package: com.dao.snowboard.settingsicons
+Version: 1.0.26~Beta3
+Architecture: iphoneos-arm64e
+Maintainer: Spark
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.dao.snowboard (>= 1.2.100)
+Conflicts: com.spark.snowboard.settingsicons
+Filename: ./debs/com.dao.snowboard.settingsicons_1.0.26~Beta3_iphoneos-arm64e.deb
+Size: 17224
+MD5sum: fd71b8659d226712ac61b4f252225c8c
+SHA1: 22a08495e6e65622ad18d5a4e6b6abc9e85951ec
+SHA256: e20bb541ac2484f007ac5b5d5ec95ccf662dedece838a49ee24cf5a0f070b44d
+Section: Snowboard
+Description: SnowBoard 设置图标组件！
+Author: Spark
+Name: SnowBoard SetIcons(RootHide)
+
 Package: com.foxfort.foxforttools
 Version: 1.4.15
 Architecture: iphoneos-arm64e
@@ -188,6 +224,23 @@ Description: Quickly translate any text. 隐根请用foxfort1.4.15、fortutils1.
 Author: FoxfortMobile
 Icon: file:///Library/PreferenceBundles/translomaticsettings.bundle/icon@3x.png
 Name: Translomatic
+
+Package: com.iZJ.SBLockhook
+Version: 1.0-1
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.iZJ.SBLockhook_1.0-1_iphoneos-arm64e.deb
+Size: 3416
+MD5sum: e50a539a34ae3db8c5ce0fdd0ce65eab
+SHA1: 35ca19c86bba4b51d57e89140179235eaffccb5f
+SHA256: c3639c7aed3e55a5cc6bc1e6b620b0faf0bbb54109131cb446d3b09424cea00f
+Section: 快捷开关手电筒
+Description: 长按锁屏键手机电筒(无论亮不亮屏都能触发)
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: 长按锁屏呼出手电筒
 
 Package: com.iZJ.folderpro
 Version: 0.0.1-39
@@ -421,6 +474,23 @@ Description: 本体：File Manager for iPhone, iPad, iPod Touch. Supports iOS 11
 Author: TIGI Software
 Name: Filza File Manager 64-bit
 
+Package: com.wkk.SBLockhook
+Version: 1.0-3
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.wkk.SBLockhook_1.0-3_iphoneos-arm64e.deb
+Size: 4012
+MD5sum: 5be03d3dcce8838194505cf277b080ee
+SHA1: 56cd6310ec5224bd5ed2c0c8fecabfe07420abe8
+SHA256: a402fd1b4424d9b6d1c5c578a92e39a7649c80c36bb6c22c0367a7cca6586fb5
+Section: 快捷开关手电筒
+Description: 长按锁屏键手机电筒(息屏才触发)
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: 长按锁屏呼出手电筒
+
 Package: com.wkk.atria
 Version: 1.4.1-6
 Architecture: iphoneos-arm64e
@@ -489,6 +559,22 @@ Description: 可将应用置于前台，达到真后台效果，应用图标长�
 Author: sergy
 Icon: https://s1.imagehub.cc/images/2025/01/07/da88b1cfbc41a40634e3396891d98dc6.png
 Name: Immortalizer
+
+Package: com.wkk.photox
+Version: 1.0-4
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 356
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/com.wkk.photox_1.0-4_iphoneos-arm64e.deb
+Size: 16172
+MD5sum: 20383a54696828b2cf247a804b25fc10
+SHA1: 6c68efff0ca4a90c3699ac5ac7b3356cb83a47a7
+SHA256: b85b9ad95803702fd7ab9fceef3fee1df0262e2024a2666023c5c0c7179f274b
+Section: 相册增强
+Description: Custom Photos app behavior(无永久删除照片确认选项功能，这个用电话助手)
+Author: wkk
+Name: PhotoX
 
 Package: com.wkk.proxysc
 Version: 1.0
