@@ -132,42 +132,6 @@ Author: 妖刀
 Name: CCLess++(RootHide)
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
 
-Package: com.dao.snowboard
-Version: 1.5.37-Beta4
-Architecture: iphoneos-arm64e
-Maintainer: Spark
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader
-Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.spark.snowboard
-Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
-Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
-Filename: ./debs/com.dao.snowboard_1.5.37-Beta4_iphoneos-arm64e.deb
-Size: 1116176
-MD5sum: 8bec9f81f4a703053ee589fb60247739
-SHA1: 84bf34b0ab37a67498e5ecd70a62d58dd683370e
-SHA256: ba28a7987442fd47454d59c6d8ec65a4fc7a277d1e4032bada9b3257a005df39
-Section: Snowboard
-Description: Snowboard 主题引擎！roothide主题路径：[jbroot]/Library/Themes
-Author: Spark & Dennis D. Bednarz
-Name: SnowBoard(RootHide)
-
-Package: com.dao.snowboard.settingsicons
-Version: 1.0.26~Beta3
-Architecture: iphoneos-arm64e
-Maintainer: Spark
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, com.dao.snowboard (>= 1.2.100)
-Conflicts: com.spark.snowboard.settingsicons
-Filename: ./debs/com.dao.snowboard.settingsicons_1.0.26~Beta3_iphoneos-arm64e.deb
-Size: 17224
-MD5sum: fd71b8659d226712ac61b4f252225c8c
-SHA1: 22a08495e6e65622ad18d5a4e6b6abc9e85951ec
-SHA256: e20bb541ac2484f007ac5b5d5ec95ccf662dedece838a49ee24cf5a0f070b44d
-Section: Snowboard
-Description: SnowBoard 设置图标组件！
-Author: Spark
-Name: SnowBoard SetIcons(RootHide)
-
 Package: com.foxfort.foxforttools
 Version: 1.4.15
 Architecture: iphoneos-arm64e
