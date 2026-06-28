@@ -474,23 +474,6 @@ Description: Picta适配 Snapper3 的插件
 Author: SuSu
 Name: Picta
 
-Package: com.tigisoftware.filza64bit
-Version: 4.0.1-4~roothide
-Architecture: iphoneos-arm64e
-Maintainer: TIGI Software
-Pre-Depends: patches-com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
-Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
-Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
-Filename: ./debs/com.tigisoftware.filza64bit_4.0.1-4~roothide_iphoneos-arm64e.deb
-Size: 6972824
-MD5sum: 25ccf6f4f5fb5d7859392cdf0f84a2b8
-SHA1: 59f43214281039afa8c2dfd257e709ae6b9b0fce
-SHA256: 4b42a48c37ceda96a15cab66d517e85e03b988479364e1fdb6fc3c2f9ff14897
-Section: Filza
-Description: 本体：File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This version only supports 64-bit devices
-Author: TIGI Software
-Name: Filza File Manager 64-bit
-
 Package: com.wkk.SBLockhook
 Version: 1.0-3
 Architecture: iphoneos-arm64e
@@ -731,25 +714,6 @@ Section: 任务界面
 Description: 长按后台卡片清除所有后台、上滑黑名单等等，iZJ只用它的上滑黑名单功能。但是这个插件是netskao很久之前的，并且退网很久了，未适配roothide，即使转换为roothide安装能用，也大概率不定时安全模式或者手机卡死看门狗超时。
 Author: Netskao
 Name: KillApps-Rootless
-
-Package: roothide.patches.filza
-Version: 0.5-4
-Architecture: iphoneos-arm64e
-Maintainer: roothide
-Installed-Size: 268
-Depends: com.roothide.patchloader
-Recommends: com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
-Conflicts: com.tigisoftware.filza64bit (>> 4.0.1-4~roothide), com.tigisoftware.filza64bit (<< 4.0.1-4~roothide)
-Provides: patches-com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
-Filename: ./debs/roothide.patches.filza_0.5-4_iphoneos-arm64e.deb
-Size: 31072
-MD5sum: d3c3f3beabf191a2e77e60e02c93af07
-SHA1: 6183beda98feaf34fd71a3f3bb85df0bc8ea5286
-SHA256: c897e11772127a3fe7312175251136f6a9a68c4ff32d3b11935cac5323cca3f2
-Section: Filza
-Description: 本体：RootHide Dynamic Patches For Filza
-Author: roothide
-Name: Patches for Filza 64bit
 
 Package: ws.hbang.common
 Version: 2.0-29
