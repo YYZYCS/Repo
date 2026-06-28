@@ -93,24 +93,6 @@ Author: saurik, Cannathea, i_82, Shadow-
 Depiction: https://cydia.akemi.ai/?page/com.cannathea.afc2d-arm64
 Name: Apple File Conduit "2" (RootHide)
 
-Package: com.dao.ccless
-Version: 2.1.0.1
-Architecture: iphoneos-arm64e
-Maintainer: 妖刀
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.roothide.cc, com.hk.rootless.cc
-Filename: ./debs/com.dao.ccless_2.1.0.1_iphoneos-arm64e.deb
-Size: 498004
-MD5sum: 7f7ca4c529866aef45f2515d548b4c49
-SHA1: aba20b9c7f32a63359a68f0b2df58911d08121ed
-SHA256: 4458cee2b9cf299f2d5632e9351032f6d1ec2ba91d7a806aed8700342003c482
-Section: 控制中心
-Description: 超级控制中心模块集合！
-Author: 妖刀
-Name: CCLess++(RootHide)
-Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
-
 Package: com.dao.snowboard
 Version: 1.5.37-Beta4
 Architecture: iphoneos-arm64e
