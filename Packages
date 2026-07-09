@@ -347,24 +347,6 @@ Icon: https://sini921.github.io/repo/sileodepiction/icon/sneakycam.png
 Name: SneakyCam(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/sneakycam/js.json
 
-Package: com.sini921.cozybadges
-Version: 2.2-4
-Architecture: iphoneos-arm64e
-Maintainer: NoisyFlake & SINI
-Installed-Size: 496
-Depends: firmware (>= 13.0), mobilesubstrate
-Filename: ./debs/CozyBadges(roothide)-2.2-4-iphoneos-arm64e.deb
-Size: 49040
-MD5sum: 0147a2e99b123ccdcb9f96f0e9360bb4
-SHA1: a059dafc6c4a3ea6ec39a2f620c7b9d4b4037eca
-SHA256: 74ab34137f3f145c967f79c3d2aad87fb8679e46a353b66c6d779431e7cfccf3
-Section: 越狱插件
-Description: App的名字变成通知数量，基于开源优化编译适配roothide。去掉了Alderis Color Picker依赖
-Author: NoisyFlake & SINI
-Icon: https://sini921.github.io/repo/sileodepiction/icon/cozybadges.png
-Name: CozyBadges(roothide)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/cozybadges/js.json
-
 Package: com.sini921.folderpro
 Version: 0.0.1-39
 Architecture: iphoneos-arm64e
