@@ -353,6 +353,24 @@ Architecture: iphoneos-arm64e
 Maintainer: NoisyFlake & SINI
 Installed-Size: 496
 Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/com.sini921.cozybadges_2.2-4_iphoneos-arm64e.deb
+Size: 49016
+MD5sum: 4b98233c3f40bccd53aa9ce013734509
+SHA1: 67972f915a5cd9575e7f2b184d1a15439d293c9a
+SHA256: a4ffac1f2810ddbf93d4a21e80908e0b1e5ec6ed3006745f0077a5cf03a4b2d0
+Section: App的名字变成通知数量
+Description: App的名字变成通知数量，基于开源优化编译适配roothide。去掉了Alderis Color Picker依赖
+Author: NoisyFlake & SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/cozybadges.png
+Name: CozyBadges(roothide)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/cozybadges/js.json
+
+Package: com.sini921.cozybadges
+Version: 2.2-4
+Architecture: iphoneos-arm64e
+Maintainer: NoisyFlake & SINI
+Installed-Size: 496
+Depends: firmware (>= 13.0), mobilesubstrate
 Filename: ./debs/CozyBadges(roothide)-2.2-4-iphoneos-arm64e.deb
 Size: 49040
 MD5sum: 0147a2e99b123ccdcb9f96f0e9360bb4
