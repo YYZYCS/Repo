@@ -273,6 +273,24 @@ Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 Name: Hammer It
 
+Package: com.m4fn3.k2gecamen
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Maintainer: mafu
+Installed-Size: 8928
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Filename: ./debs/com.m4fn3.k2gecamen_1.1.0_iphoneos-arm64e.deb
+Size: 5965268
+MD5sum: db736641de4c009b11b39c91d721d2cd
+SHA1: 1fdd0cf4810e819deb3902d023683212d36a5c11
+SHA256: 4f9946de0ff29b3d0e0cfc9d9af4ec07b186db82aa3db31c3ac5a75232af0f70
+Section: 隐私相机
+Description: Capture moments with photos, videos, and audio in the background with ease.
+Author: mafu
+Icon: https://m4fn3.github.io/repo/web/images/K2gecamen.png
+Name: K2gecamen
+
 Package: com.nathan.gridswitcher
 Version: 1.0.3
 Architecture: iphoneos-arm64e
@@ -319,11 +337,11 @@ Installed-Size: 560
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, oldabi
 Filename: ./debs/com.sini.sneakycam_2.0.7_iphoneos-arm64e.deb
-Size: 106480
-MD5sum: a7fa1568a417254b591a8a3c5802725c
-SHA1: 97b85729f62b906224789ec86aa74a0e7d74a5b8
-SHA256: b37e39fb7c0ef1df0d2e254becb2942583cfc1ccb931c840ef125b4e0d4489c5
-Section: SneakyCam
+Size: 106584
+MD5sum: 990f7f7d0e90a6548e83f107e7688113
+SHA1: 649e9a0d84e65073f60d67c8c4d93b5785f0fba3
+SHA256: a3b7ce07e6da04acb6c95f6e115a1a09605173de422998da66499eb5a2dbc30e
+Section: 隐私相机
 Description: 隐私相机插件，需要搭配pulloverpro或者svp来开启相机权限，此插件为转插，有可能会出现黑屏，卡注销情况，谨慎使用，有问题请缷载！
 Author: Spark
 Icon: https://sini921.github.io/repo/sileodepiction/icon/sneakycam.png
